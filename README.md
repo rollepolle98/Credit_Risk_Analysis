@@ -10,32 +10,54 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ![](Analysis/Balanced_Accuracy/Naive_Random.png)
 
+* precision: 0.01
+* recall: 0.74
+* f1: 0.02
+
 ### LR with SMOTE
 
 
 ![](Analysis/Balanced_Accuracy/SMOTE.png)
 
+* precision: 0.01
+* recall: 0.63
+* f1: 0.02
 
 ### LR with Undersampling (Cluster Centroid)
 
 ![](Analysis/Balanced_Accuracy/Undersampling.png)
+
+* precision: 0.01
+* recall: 0.67
+* f1: 0.01
+
+
 
 ### LoR with SMOTEENN
 
 
 ![](Analysis/Balanced_Accuracy/Undersampling.png)
 
+* precision: 0.01
+* recall: 0.70
+* f1: 0.02
 
 ### Balanced Random Forest Classifier
 
 ![](Analysis/Balanced_Accuracy/Balanced_Random_Forest.png)
 
+* precision: 0.01
+* recall: 0.70
+* f1: 0.06
 
 ### AdaBoost
 
 ![](Analysis/Balanced_Accuracy/Easy_Ensemble.png)
 
+* precision: 0.09
+* recall: 0.92
+* f1: 0.16
 
 ## Summary
 
-Based on all of the analysis and testing it seems as if the AdaBoost performed the best across all three metrics. They key metric that it performed best on was recall, recall is far more important than precision for this task. While AdaBoost preformed the best in the average of all metrics and cahgt 93% of the fraud cases, its still lacks precision which is a distinguishing factor in uncovering all of these cases. While there may be some flaws in AdaBoost, it seems like it is the best model for our data in order to catch the most fraud claims.
+Based on all of the analysis and testing it seems as if the AdaBoost performed the best across all three metrics. They key metric that it performed best on was recall, recall is far more important than precision for this task. AdaBoost preformed the best in the average of all metrics and caught 93% of the fraud cases however it still lacks precision which is a distinguishing factor in uncovering all of these cases. While there may be some flaws in AdaBoost, it seems like it is the best model for our data in order to catch the most fraud claims.
