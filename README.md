@@ -6,46 +6,34 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 
 ## Results
-### Logistic Regression (LR) with Random Over Sampling
-balanced accuracy score: .659,
-precision: .01,
-recall: .65
+### Logistic Regression (LR) Naive Random Oversampling
 
-
+![](Analysis/Balanced_Accuracy/Naive_Random.png)
 
 ### LR with SMOTE
-balanced accuracy score: .643,
-precision: .01,
-recall: .60
 
 
-
-### LR with Cluster Centroid
-balanced accuracy score: .611,
-precision:.01,
-recall:.66
+![](Analysis/Balanced_Accuracy/SMOTE.png)
 
 
+### LR with Undersampling (Cluster Centroid)
+
+![](Analysis/Balanced_Accuracy/Undersampling.png)
 
 ### LoR with SMOTEENN
-balanced accuracy score: .652,
-precision: .01,
-recall: .64
 
+
+![](Analysis/Balanced_Accuracy/Undersampling.png)
 
 
 ### Balanced Random Forest Classifier
-balanced accuracy score: .681,
-precision: .05,
-recall: .41
 
+![](Analysis/Balanced_Accuracy/Balanced_Random_Forest.png)
 
 
 ### AdaBoost
-balanced accuracy score: .883,
-precision:.05,
-recall:.86
 
+![](Analysis/Balanced_Accuracy/Easy_Ensemble.png)
 
 
 ## Summary
