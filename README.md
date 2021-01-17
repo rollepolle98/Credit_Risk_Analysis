@@ -37,3 +37,5 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 
 ## Summary
+
+Based on all of the analysis and testing it seems as if the AdaBoost performed the best across all three metrics. They key metric that it performed best on was recall, recall is far more important than precision for this task. While AdaBoost preformed the best in the average of all metrics and cahgt 93% of the fraud cases, its still lacks precision which is a distinguishing factor in uncovering all of these cases. While there may be some flaws in AdaBoost, it seems like it is the best model for our data in order to catch the most fraud claims.
